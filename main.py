@@ -16,10 +16,10 @@ def print_versions():
     release = platform.release()
 
     if system == "Windows":
-        print(f"Операционная система: {system} {release}")
+        print(f"operating system: {system} {release}")
     elif system == "Linux":
         distro = platform.linux_distribution()
-        print(f"Операционная система: {system} {release}")
+        print(f"operating system: {system} {release}")
         print(f"Дистрибутив Linux: {distro[0]} {distro[1]}")
     else:
         print(f"Операционная система: {system} {release}")
